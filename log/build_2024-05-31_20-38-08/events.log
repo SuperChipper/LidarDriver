@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000399] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.000694] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.008483] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.009442] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.009933] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chip/ydlidar_ros2_ws/build/ydlidar_ros2_driver', '--clean-first', '--', '-j16', '-l16'], 'cwd': '/home/chip/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chip'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chip'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/chip'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chip/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chip'), ('NAME', 'localhost'), ('WSL_INTEROP', '/run/WSL/537_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chip/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts:/mnt/c/Python310:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/zihan/AppData/Local/Microsoft/WindowsApps:/mnt/f/PyCharm 2022.2.1/bin:/mnt/c/Users/zihan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Qt/Qt5.11.3/5.11.3/mingw53_32/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/Pandoc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/usbipd-win:/mnt/c/Users/zihan/anaconda3:/mnt/c/Users/zihan/anaconda3/Library/usr/bin:/mnt/c/Users/zihan/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/zihan/anaconda3/Library/bin:/mnt/c/Users/zihan/anaconda3/Scripts:/mnt/c/Program Files/JetBrains/CLion 2022.2.1/bin:/mnt/c/Users/zihan/AppData/Roaming/npm:/mnt/c/MinGW/mingw64/bin:/mnt/c/Users/zihan/Documents/opencv/mingw-build/install/x64/mingw/bin:/mnt/c/Users/zihan/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/f/cv4.6.0/opencv/build/x64/mingw-build/bin:/mnt/c/Users/zihan/.dotnet/tools:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.2.1/bin:/snap/bin'), ('WSL_PAC_URL', 'http://127.0.0.1:1079/pac?auth=hRRKxADmDZitzsy3KLRo'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chip/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chip/ydlidar_ros2_ws/build/ydlidar_ros2_driver'), ('CONDA_EXE', '/home/chip/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.091772] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.092035] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o\x1b[0m\n'}
+[0.099666] (-) TimerEvent: {}
+[0.200111] (-) TimerEvent: {}
+[0.300442] (-) TimerEvent: {}
+[0.400793] (-) TimerEvent: {}
+[0.501261] (-) TimerEvent: {}
+[0.601637] (-) TimerEvent: {}
+[0.702142] (-) TimerEvent: {}
+[0.802643] (-) TimerEvent: {}
+[0.903099] (-) TimerEvent: {}
+[1.003580] (-) TimerEvent: {}
+[1.104022] (-) TimerEvent: {}
+[1.204547] (-) TimerEvent: {}
+[1.305042] (-) TimerEvent: {}
+[1.405543] (-) TimerEvent: {}
+[1.505974] (-) TimerEvent: {}
+[1.606436] (-) TimerEvent: {}
+[1.706887] (-) TimerEvent: {}
+[1.807400] (-) TimerEvent: {}
+[1.907860] (-) TimerEvent: {}
+[2.008238] (-) TimerEvent: {}
+[2.108612] (-) TimerEvent: {}
+[2.209058] (-) TimerEvent: {}
+[2.309431] (-) TimerEvent: {}
+[2.406113] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.406488] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.406688] (ydlidar_ros2_driver) StderrLine: {'line': b'  169 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[2.406804] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.406898] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.406991] (ydlidar_ros2_driver) StderrLine: {'line': b'  170 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[2.407033] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.407072] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:171:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.407111] (ydlidar_ros2_driver) StderrLine: {'line': b'  171 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[2.407149] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.409528] (-) TimerEvent: {}
+[2.422314] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.422616] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.422721] (ydlidar_ros2_driver) StderrLine: {'line': b'  179 |     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[2.422815] (ydlidar_ros2_driver) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.423086] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.423257] (ydlidar_ros2_driver) StderrLine: {'line': b'  180 |   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[2.423368] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.423453] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chip/ydlidar_ros2_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:181:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.423535] (ydlidar_ros2_driver) StderrLine: {'line': b'  181 |   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[2.423609] (ydlidar_ros2_driver) StderrLine: {'line': b'      |   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.509733] (-) TimerEvent: {}
+[2.610237] (-) TimerEvent: {}
+[2.710780] (-) TimerEvent: {}
+[2.811267] (-) TimerEvent: {}
+[2.911712] (-) TimerEvent: {}
+[3.012176] (-) TimerEvent: {}
+[3.112552] (-) TimerEvent: {}
+[3.212935] (-) TimerEvent: {}
+[3.313393] (-) TimerEvent: {}
+[3.413861] (-) TimerEvent: {}
+[3.514297] (-) TimerEvent: {}
+[3.614691] (-) TimerEvent: {}
+[3.715230] (-) TimerEvent: {}
+[3.815672] (-) TimerEvent: {}
+[3.916150] (-) TimerEvent: {}
+[4.016602] (-) TimerEvent: {}
+[4.117066] (-) TimerEvent: {}
+[4.217510] (-) TimerEvent: {}
+[4.317947] (-) TimerEvent: {}
+[4.418363] (-) TimerEvent: {}
+[4.518717] (-) TimerEvent: {}
+[4.619232] (-) TimerEvent: {}
+[4.719807] (-) TimerEvent: {}
+[4.820248] (-) TimerEvent: {}
+[4.920668] (-) TimerEvent: {}
+[5.021043] (-) TimerEvent: {}
+[5.121474] (-) TimerEvent: {}
+[5.221824] (-) TimerEvent: {}
+[5.270542] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[5.321949] (-) TimerEvent: {}
+[5.422243] (-) TimerEvent: {}
+[5.522579] (-) TimerEvent: {}
+[5.622957] (-) TimerEvent: {}
+[5.723442] (-) TimerEvent: {}
+[5.816674] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] Built target ydlidar_ros2_driver_node\n'}
+[5.823601] (-) TimerEvent: {}
+[5.924033] (-) TimerEvent: {}
+[6.024446] (-) TimerEvent: {}
+[6.124904] (-) TimerEvent: {}
+[6.225341] (-) TimerEvent: {}
+[6.325791] (-) TimerEvent: {}
+[6.426216] (-) TimerEvent: {}
+[6.526629] (-) TimerEvent: {}
+[6.627056] (-) TimerEvent: {}
+[6.727491] (-) TimerEvent: {}
+[6.827939] (-) TimerEvent: {}
+[6.928392] (-) TimerEvent: {}
+[7.028764] (-) TimerEvent: {}
+[7.074785] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_client\x1b[0m\n'}
+[7.128897] (-) TimerEvent: {}
+[7.229265] (-) TimerEvent: {}
+[7.329711] (-) TimerEvent: {}
+[7.430142] (-) TimerEvent: {}
+[7.530555] (-) TimerEvent: {}
+[7.581439] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_client\n'}
+[7.591688] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[7.617705] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[7.625128] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chip/ydlidar_ros2_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/chip/ydlidar_ros2_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'chip'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/chip'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/chip'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/chip/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'chip'), ('NAME', 'localhost'), ('WSL_INTEROP', '/run/WSL/537_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/chip/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts:/mnt/c/Python310:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Users/zihan/AppData/Local/Microsoft/WindowsApps:/mnt/f/PyCharm 2022.2.1/bin:/mnt/c/Users/zihan/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/Tesseract-OCR:/mnt/c/Qt/Qt5.11.3/5.11.3/mingw53_32/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit:/mnt/c/Program Files/Pandoc:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files/usbipd-win:/mnt/c/Users/zihan/anaconda3:/mnt/c/Users/zihan/anaconda3/Library/usr/bin:/mnt/c/Users/zihan/anaconda3/Library/mingw-w64/bin:/mnt/c/Users/zihan/anaconda3/Library/bin:/mnt/c/Users/zihan/anaconda3/Scripts:/mnt/c/Program Files/JetBrains/CLion 2022.2.1/bin:/mnt/c/Users/zihan/AppData/Roaming/npm:/mnt/c/MinGW/mingw64/bin:/mnt/c/Users/zihan/Documents/opencv/mingw-build/install/x64/mingw/bin:/mnt/c/Users/zihan/AppData/Local/Programs/MiKTeX/miktex/bin/x64:/mnt/f/cv4.6.0/opencv/build/x64/mingw-build/bin:/mnt/c/Users/zihan/.dotnet/tools:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.2.1/bin:/snap/bin'), ('WSL_PAC_URL', 'http://127.0.0.1:1079/pac?auth=hRRKxADmDZitzsy3KLRo'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.tuna.tsinghua.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chip/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/chip/ydlidar_ros2_ws/build/ydlidar_ros2_driver'), ('CONDA_EXE', '/home/chip/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[7.630592] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.630842] (-) TimerEvent: {}
+[7.631146] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.631321] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[7.631558] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[7.631824] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[7.631931] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[7.632098] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[7.632175] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[7.632259] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[7.632327] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[7.632528] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[7.632674] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[7.632745] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[7.632793] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[7.632899] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[7.632994] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[7.633082] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[7.633191] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[7.633304] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[7.633396] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[7.633493] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[7.633604] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[7.633649] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[7.633743] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[7.633836] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[7.634004] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[7.634282] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[7.634448] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[7.634539] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[7.634628] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[7.634708] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[7.641005] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[7.641470] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[7.641661] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[7.641840] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/chip/ydlidar_ros2_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[7.643899] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[7.682920] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[7.683799] (-) EventReactorShutdown: {}
